@@ -1,0 +1,7 @@
+import random
+palpite=int(input('Tente adivinhar o número que o computador pensou (entre 0 e 5): '))
+numero_pensado=random.randint(0,5)
+if(palpite==numero_pensado):
+    print('Parabens você acertou! ')
+else:
+    print('Você errou, tente novamente')

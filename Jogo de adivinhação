@@ -1,6 +1,9 @@
 import random
+from time import sleep
 palpite=int(input('Tente adivinhar o número que o computador pensou (entre 0 e 5): '))
 numero_pensado=random.randint(0,5)
+print("PROCESSANDO...")
+sleep(3)
 if(palpite==numero_pensado):
     print('Parabens você acertou! ')
 else:
